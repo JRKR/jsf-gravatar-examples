@@ -9,18 +9,13 @@
     <artifactId>jsf-gravatar-examples</artifactId>
     <packaging>war</packaging>
     <name>JRKR JSF Gravatar Component Examples</name>
-
-    <parent>
-        <groupId>me.jrkr</groupId>
-        <artifactId>jsf-gravatar-parent</artifactId>
-        <version>1.0</version>
-        <relativePath>../jsf-gravatar-parent/pom.xml</relativePath>
-    </parent>
+    <version>1.0</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jsf.version>2.2.5</jsf.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>me.jrkr</groupId>
@@ -59,14 +54,6 @@
         </dependency>
 
     </dependencies>
-
-    <repositories>
-        <repository>
-            <id>java.net</id>
-            <url>http://download.java.net/maven/1</url>
-            <layout>legacy</layout>
-        </repository>
-    </repositories>
 
     <build>
         <finalName>jsfgravatar</finalName>
