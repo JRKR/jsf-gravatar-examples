@@ -4,3 +4,4 @@ target/
 jsfgravatar-examples.iml
 jsf-gravatar-examples.iml
 src/main/resources/rebel.xml
+.idea/
